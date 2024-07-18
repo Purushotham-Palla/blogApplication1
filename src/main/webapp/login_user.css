@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+body{
+	            
+	background-color: #002444;        
+	}
+.login-details{
+	margin:20vh 50vh;
+	color: white;
+	height: 350px;
+	width: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	border: 1px solid white;
+	}
+.login-details #text-box{
+	height: 30px;
+	width: 250px;
+	}
+::placeholder {
+	font-weight: bold;
+	color: black;
+	}
+#submit{
+	height: 30px;
+	}
+	

@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	            font-family: 'Times New Roman', Times, serif;
+	        }
+	        body{
+	            background-image: url(index.png);
+	            background-size: cover;
+	        }
+	        .hero{
+	            height: 80vh;
+	            padding-top: 10vh;
+	            display: flex;
+	            justify-content: center;
+	            align-items: center;
+	            
+	        }
+	        
+	        #title{
+	            font-size: 120px;
+	            color: white;  
+	        }
+	        .caption{
+	            display: flex;
+	            margin-top: -5vh;
+	            margin-left: 75vh;
+	            width: max-content;
+	            display:flex;
+	            justify-content: space-between;
+	            width: 60vh;
+	            
+	        }
+	        .caption a{
+	            text-decoration: none;
+	            padding: 10px 50px;
+	            background-color: aquamarine;
+	            border-radius: 8px;
+	            color: #002444;
+	            font-weight: bolder;
+	            
+	        }

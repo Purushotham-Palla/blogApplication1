@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+
+}
+
+.container h1{
+    text-align: center;
+}
+.admin{
+    height: fit-content;
+    margin-left: 10vh;
+    padding-top: 80px;
+    /* color:white; */
+}
+.admin a{
+	margin-left:40vh;
+    background-color: rgb(76, 126, 126);
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(33, 33, 32);
+    padding: 6px;
+}
+
+.hero{
+    margin-left: 60vh;
+    margin-top:5vh;
+    margin-right: 10vh;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.hero a{
+    text-decoration: none;
+}
+table,td{
+    border: 1px solid  #3a4553;
+}

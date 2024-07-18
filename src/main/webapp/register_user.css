@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+ body{
+            
+            background-color: #002444;        
+        }
+.details{
+	margin:10vh 40vh;
+	color: white;
+	height: 500px;
+	width: 60vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid white;
+    }
+.details #text-box{
+	height: 30px;
+    width: 250px;
+    }
+::placeholder {
+	font-weight: bold;
+    color: black;
+    }
+#role{
+	height: 30px;
+    width: 100px;
+    }
+#submit{
+	height: 30px;
+    width: 100px;
+        }
